@@ -42,6 +42,11 @@ data/
 *.pkl
 *.pickle
 
+# Reports and outputs
+*_report.txt
+analysis_results.*
+custom_speeches_example.csv
+
 # Models
 models/
 *.model
