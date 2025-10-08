@@ -2,6 +2,20 @@
 
 Analyze central bank speeches using NLP to extract sentiment and topics, then correlate with market data to uncover predictive signals in monetary policy language.
 
+## 🚀 Quick Demo
+
+Get started in 30 seconds:
+
+```bash
+# Install minimal dependencies
+pip install pandas numpy scipy
+
+# Run the demo
+python demo.py
+```
+
+This will analyze sample Federal Reserve speeches and classify their monetary policy stance (hawkish/dovish/neutral).
+
 ## Overview
 
 This project uses advanced natural language processing (NLP) techniques to analyze central bank speeches and communications, extracting sentiment and thematic content. It then correlates these NLP-derived signals with market data (bond yields, stock indices, volatility) to identify potential predictive relationships between monetary policy language and market movements.
@@ -31,6 +45,29 @@ This project uses advanced natural language processing (NLP) techniques to analy
 
 - Python 3.8 or higher
 - pip package manager
+
+### Quick Start (Minimal Installation)
+
+For basic sentiment analysis without heavy ML dependencies:
+
+```bash
+pip install pandas numpy scipy
+```
+
+Then run the demo:
+```bash
+python demo.py
+```
+
+### Full Installation
+
+For complete functionality including topic modeling and market correlation:
+
+```bash
+pip install -r requirements.txt
+```
+
+**Note**: Full installation includes large ML models (~2-3GB). See [INSTALL.md](INSTALL.md) for details.
 
 ### Setup
 
